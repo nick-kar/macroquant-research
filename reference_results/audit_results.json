@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "Model and hyperparameter selection records exclude test performance",
+    "Macro availability, feature timing and future holding intervals are consistent",
+    "All learned-model refits use only completed earlier labels",
+    "Seven models, complete asset alignment, positive finite forecasts and chronological split",
+    "Daily portfolio paths compound recorded net returns over every held interval",
+    "Increasing proportional trading costs never improves terminal wealth",
+    "Five-session targets join without overlap or omitted holding intervals"
+  ],
+  "scope": "Deterministic internal timing/accounting invariants. Not independent provider-data validation or proof of investment performance."
+}

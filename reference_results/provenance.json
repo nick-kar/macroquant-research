@@ -1,0 +1,1079 @@
+{
+  "market": [
+    {
+      "asset": "SPY",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1104537600&period2=1767225600&interval=1d&events=div%2Csplits",
+      "cache_file": "data/cache/prices/SPY_2005-01-01_2025-12-31.json",
+      "sha256": "824f18ac8329ba73d8d4c69da6ffd60ccc5aff43016411ea9034a36782b8979f",
+      "retrieved_utc": "2026-11-10T08:52:44.957859+00:00",
+      "rows": 5283,
+      "first": "2005-01-03",
+      "last": "2025-12-31",
+      "basis": "Yahoo adjusted-close factor applied to raw open; research total-return proxy, not an executable adjusted share price"
+    },
+    {
+      "asset": "TLT",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/TLT?period1=1104537600&period2=1767225600&interval=1d&events=div%2Csplits",
+      "cache_file": "data/cache/prices/TLT_2005-01-01_2025-12-31.json",
+      "sha256": "ceba015b82b7fc252b30256948c450194b16f112a96e2805f422ad12fbc5c84e",
+      "retrieved_utc": "2026-11-10T08:52:44.970083+00:00",
+      "rows": 5283,
+      "first": "2005-01-03",
+      "last": "2025-12-31",
+      "basis": "Yahoo adjusted-close factor applied to raw open; research total-return proxy, not an executable adjusted share price"
+    },
+    {
+      "asset": "GLD",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?period1=1104537600&period2=1767225600&interval=1d&events=div%2Csplits",
+      "cache_file": "data/cache/prices/GLD_2005-01-01_2025-12-31.json",
+      "sha256": "4e4d05269b19918baec2e84ba0f6d738ee7051dfe1aa53edab29525ade6b3657",
+      "retrieved_utc": "2026-11-10T08:52:44.982079+00:00",
+      "rows": 5283,
+      "first": "2005-01-03",
+      "last": "2025-12-31",
+      "basis": "Yahoo adjusted-close factor applied to raw open; research total-return proxy, not an executable adjusted share price"
+    }
+  ],
+  "macro": [
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2005-12-31",
+        "2006-01-31",
+        "2006-02-28",
+        "2006-03-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "218f520f85bd1d7ce0f9f5c7ebb2c3cfcad8a0d362874e0345d85bdf80581cdc",
+      "cache_file": "data/cache/macro/vintages_2cedf156f0cd9cbc.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2005-12-31%2C2005-12-31%2C2005-12-31%2C2006-01-31%2C2006-01-31%2C2006-01-31%2C2006-02-28%2C2006-02-28%2C2006-02-28%2C2006-03-31%2C2006-03-31%2C2006-03-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2006-04-30",
+        "2006-05-31",
+        "2006-06-30",
+        "2006-07-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "b6aae53ea72f9c83c5915fe24a3f62d8b6ea51a95e3797db837d0250897d11bc",
+      "cache_file": "data/cache/macro/vintages_f84ef1b340abcffb.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2006-04-30%2C2006-04-30%2C2006-04-30%2C2006-05-31%2C2006-05-31%2C2006-05-31%2C2006-06-30%2C2006-06-30%2C2006-06-30%2C2006-07-31%2C2006-07-31%2C2006-07-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2006-08-31",
+        "2006-09-30",
+        "2006-10-31",
+        "2006-11-30"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "79a8741ba86b26e78e3d7e42570b52173dd321f3a6fd3e80313893a46e0c9b2c",
+      "cache_file": "data/cache/macro/vintages_4a6d9d7ba8c92f9d.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2006-08-31%2C2006-08-31%2C2006-08-31%2C2006-09-30%2C2006-09-30%2C2006-09-30%2C2006-10-31%2C2006-10-31%2C2006-10-31%2C2006-11-30%2C2006-11-30%2C2006-11-30"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2006-12-31",
+        "2007-01-31",
+        "2007-02-28",
+        "2007-03-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "6ebaafb8fc7c8db3e59d52e490f0c5eace9f9052ff0c1bb0491aa510746c5687",
+      "cache_file": "data/cache/macro/vintages_3a92dc06e0306f1d.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2006-12-31%2C2006-12-31%2C2006-12-31%2C2007-01-31%2C2007-01-31%2C2007-01-31%2C2007-02-28%2C2007-02-28%2C2007-02-28%2C2007-03-31%2C2007-03-31%2C2007-03-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2007-04-30",
+        "2007-05-31",
+        "2007-06-30",
+        "2007-07-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "83cf0311ab8453e4655cb2763f063cb37b399efc5123902623abcf993d0b39ef",
+      "cache_file": "data/cache/macro/vintages_7c739bc24ca27baa.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2007-04-30%2C2007-04-30%2C2007-04-30%2C2007-05-31%2C2007-05-31%2C2007-05-31%2C2007-06-30%2C2007-06-30%2C2007-06-30%2C2007-07-31%2C2007-07-31%2C2007-07-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2007-08-31",
+        "2007-09-30",
+        "2007-10-31",
+        "2007-11-30"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "d846083b32e21c03235d41a94609d4d1e9f8b807324e7a429708821f4f6615f2",
+      "cache_file": "data/cache/macro/vintages_d000b953ef06f3a8.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2007-08-31%2C2007-08-31%2C2007-08-31%2C2007-09-30%2C2007-09-30%2C2007-09-30%2C2007-10-31%2C2007-10-31%2C2007-10-31%2C2007-11-30%2C2007-11-30%2C2007-11-30"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2007-12-31",
+        "2008-01-31",
+        "2008-02-29",
+        "2008-03-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "997b6ce140d72be7cc0c7f5ce848e56126a2ee50c05a8fcf21389b812ece09b7",
+      "cache_file": "data/cache/macro/vintages_917e25c715b13f67.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2007-12-31%2C2007-12-31%2C2007-12-31%2C2008-01-31%2C2008-01-31%2C2008-01-31%2C2008-02-29%2C2008-02-29%2C2008-02-29%2C2008-03-31%2C2008-03-31%2C2008-03-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2008-04-30",
+        "2008-05-31",
+        "2008-06-30",
+        "2008-07-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "a53b9e14b70be124d1c914da06ce242e332b12122c240bdfbbf25e41ecdb9b87",
+      "cache_file": "data/cache/macro/vintages_d2fc7d592068b255.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2008-04-30%2C2008-04-30%2C2008-04-30%2C2008-05-31%2C2008-05-31%2C2008-05-31%2C2008-06-30%2C2008-06-30%2C2008-06-30%2C2008-07-31%2C2008-07-31%2C2008-07-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2008-08-31",
+        "2008-09-30",
+        "2008-10-31",
+        "2008-11-30"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "d277c7ced77ee87de6e68da874d4381bf82dbe0df9a947e9a938eee5704600ab",
+      "cache_file": "data/cache/macro/vintages_2cabd846df1272b4.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2008-08-31%2C2008-08-31%2C2008-08-31%2C2008-09-30%2C2008-09-30%2C2008-09-30%2C2008-10-31%2C2008-10-31%2C2008-10-31%2C2008-11-30%2C2008-11-30%2C2008-11-30"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2008-12-31",
+        "2009-01-31",
+        "2009-02-28",
+        "2009-03-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "0b4fdd60455f94df70e6b7d8bd9f6a33ecab3f48069231bb125a954cb75f8629",
+      "cache_file": "data/cache/macro/vintages_a97a64768a101095.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2008-12-31%2C2008-12-31%2C2008-12-31%2C2009-01-31%2C2009-01-31%2C2009-01-31%2C2009-02-28%2C2009-02-28%2C2009-02-28%2C2009-03-31%2C2009-03-31%2C2009-03-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2009-04-30",
+        "2009-05-31",
+        "2009-06-30",
+        "2009-07-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "97dd57bc75ac84f32ae24a3d5b89b7c7a3ea6f0c2023ed119d07504ef40f361b",
+      "cache_file": "data/cache/macro/vintages_822701af8a41f161.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2009-04-30%2C2009-04-30%2C2009-04-30%2C2009-05-31%2C2009-05-31%2C2009-05-31%2C2009-06-30%2C2009-06-30%2C2009-06-30%2C2009-07-31%2C2009-07-31%2C2009-07-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2009-08-31",
+        "2009-09-30",
+        "2009-10-31",
+        "2009-11-30"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "94660f9dbc5a57e5b12aeaf8dd2d00ab18c97070434497ccb3c4be257e26997c",
+      "cache_file": "data/cache/macro/vintages_608cb8e3838e6dd7.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2009-08-31%2C2009-08-31%2C2009-08-31%2C2009-09-30%2C2009-09-30%2C2009-09-30%2C2009-10-31%2C2009-10-31%2C2009-10-31%2C2009-11-30%2C2009-11-30%2C2009-11-30"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2009-12-31",
+        "2010-01-31",
+        "2010-02-28",
+        "2010-03-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "e5862e3b48616d710189193e994ea4ae5321369fc7d6d3fad6349b08217c06c7",
+      "cache_file": "data/cache/macro/vintages_734490516a0106ac.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2009-12-31%2C2009-12-31%2C2009-12-31%2C2010-01-31%2C2010-01-31%2C2010-01-31%2C2010-02-28%2C2010-02-28%2C2010-02-28%2C2010-03-31%2C2010-03-31%2C2010-03-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2010-04-30",
+        "2010-05-31",
+        "2010-06-30",
+        "2010-07-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "97c0c31cc7b1a9b434851144a8f0448edca7de9e484b9ec34f6c6de83419f2ac",
+      "cache_file": "data/cache/macro/vintages_fc3cdecb8fe29cc6.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2010-04-30%2C2010-04-30%2C2010-04-30%2C2010-05-31%2C2010-05-31%2C2010-05-31%2C2010-06-30%2C2010-06-30%2C2010-06-30%2C2010-07-31%2C2010-07-31%2C2010-07-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2010-08-31",
+        "2010-09-30",
+        "2010-10-31",
+        "2010-11-30"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "915bd2872531edb24046aa234d18bc490103fe2c7e6f181bb90ce0f0a714fc8d",
+      "cache_file": "data/cache/macro/vintages_425a5262fbb671c4.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2010-08-31%2C2010-08-31%2C2010-08-31%2C2010-09-30%2C2010-09-30%2C2010-09-30%2C2010-10-31%2C2010-10-31%2C2010-10-31%2C2010-11-30%2C2010-11-30%2C2010-11-30"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2010-12-31",
+        "2011-01-31",
+        "2011-02-28",
+        "2011-03-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "0f5780ee774fd38a4e755abbb14a5a53715c250485435198c7f53e80035348aa",
+      "cache_file": "data/cache/macro/vintages_b17a14f1effea407.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2010-12-31%2C2010-12-31%2C2010-12-31%2C2011-01-31%2C2011-01-31%2C2011-01-31%2C2011-02-28%2C2011-02-28%2C2011-02-28%2C2011-03-31%2C2011-03-31%2C2011-03-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2011-04-30",
+        "2011-05-31",
+        "2011-06-30",
+        "2011-07-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "af47ae103ce70a589eef0bf41868444f02607f23fc6cf97e960346ee9017e457",
+      "cache_file": "data/cache/macro/vintages_34d5ef7d9f0ac43e.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2011-04-30%2C2011-04-30%2C2011-04-30%2C2011-05-31%2C2011-05-31%2C2011-05-31%2C2011-06-30%2C2011-06-30%2C2011-06-30%2C2011-07-31%2C2011-07-31%2C2011-07-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2011-08-31",
+        "2011-09-30",
+        "2011-10-31",
+        "2011-11-30"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "ac423b4d0756be4107a0dbc41c859a7327ae30783d10d813d20e3d349102daaa",
+      "cache_file": "data/cache/macro/vintages_7549b26cd1b9dc0f.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2011-08-31%2C2011-08-31%2C2011-08-31%2C2011-09-30%2C2011-09-30%2C2011-09-30%2C2011-10-31%2C2011-10-31%2C2011-10-31%2C2011-11-30%2C2011-11-30%2C2011-11-30"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2011-12-31",
+        "2012-01-31",
+        "2012-02-29",
+        "2012-03-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "4065bf82d32df049e2530fbb5fe5e9ec6665697f08988e9687aa1786321c04a7",
+      "cache_file": "data/cache/macro/vintages_c1390c1a64d31de9.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2011-12-31%2C2011-12-31%2C2011-12-31%2C2012-01-31%2C2012-01-31%2C2012-01-31%2C2012-02-29%2C2012-02-29%2C2012-02-29%2C2012-03-31%2C2012-03-31%2C2012-03-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2012-04-30",
+        "2012-05-31",
+        "2012-06-30",
+        "2012-07-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "a66b3b3a85f12c66f6b787e7bbe159221ef420fba2a57b6cbfeb2c0d679d145d",
+      "cache_file": "data/cache/macro/vintages_98d7238068a2d681.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2012-04-30%2C2012-04-30%2C2012-04-30%2C2012-05-31%2C2012-05-31%2C2012-05-31%2C2012-06-30%2C2012-06-30%2C2012-06-30%2C2012-07-31%2C2012-07-31%2C2012-07-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2012-08-31",
+        "2012-09-30",
+        "2012-10-31",
+        "2012-11-30"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "492005ac7fade2b6a7641f19aa70bb2d2eafedcc021789af8172864563462442",
+      "cache_file": "data/cache/macro/vintages_a440fc2f50b6881a.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2012-08-31%2C2012-08-31%2C2012-08-31%2C2012-09-30%2C2012-09-30%2C2012-09-30%2C2012-10-31%2C2012-10-31%2C2012-10-31%2C2012-11-30%2C2012-11-30%2C2012-11-30"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2012-12-31",
+        "2013-01-31",
+        "2013-02-28",
+        "2013-03-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "7a1a1d7876ad81ba94a09c95e1b8162f96a4600a26a177e1088526f093287a54",
+      "cache_file": "data/cache/macro/vintages_749b00046b81dfff.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2012-12-31%2C2012-12-31%2C2012-12-31%2C2013-01-31%2C2013-01-31%2C2013-01-31%2C2013-02-28%2C2013-02-28%2C2013-02-28%2C2013-03-31%2C2013-03-31%2C2013-03-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2013-04-30",
+        "2013-05-31",
+        "2013-06-30",
+        "2013-07-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "4c16c0eded2d76c10ba1fd48e89c216ee39458e5fc0e0bcea3d5ba9b375682d3",
+      "cache_file": "data/cache/macro/vintages_d3e06554910de397.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2013-04-30%2C2013-04-30%2C2013-04-30%2C2013-05-31%2C2013-05-31%2C2013-05-31%2C2013-06-30%2C2013-06-30%2C2013-06-30%2C2013-07-31%2C2013-07-31%2C2013-07-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2013-08-31",
+        "2013-09-30",
+        "2013-10-31",
+        "2013-11-30"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "e6f079e0374da387d8788d26fb56937df320c4c3eefcffd9008b05c4eed2bc31",
+      "cache_file": "data/cache/macro/vintages_6c0fd92b224a3131.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2013-08-31%2C2013-08-31%2C2013-08-31%2C2013-09-30%2C2013-09-30%2C2013-09-30%2C2013-10-31%2C2013-10-31%2C2013-10-31%2C2013-11-30%2C2013-11-30%2C2013-11-30"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2013-12-31",
+        "2014-01-31",
+        "2014-02-28",
+        "2014-03-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "f41277b21fc4100cfab3671f99b35e6fec62d90fe7f22b5119b4106ea7cf58c9",
+      "cache_file": "data/cache/macro/vintages_890cf268af22b354.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2013-12-31%2C2013-12-31%2C2013-12-31%2C2014-01-31%2C2014-01-31%2C2014-01-31%2C2014-02-28%2C2014-02-28%2C2014-02-28%2C2014-03-31%2C2014-03-31%2C2014-03-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2014-04-30",
+        "2014-05-31",
+        "2014-06-30",
+        "2014-07-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "7e92aac7cb8c0993853885a824c167b6052f30115b1d7cf7a99771111c0de2ed",
+      "cache_file": "data/cache/macro/vintages_7c888fdf59e52632.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2014-04-30%2C2014-04-30%2C2014-04-30%2C2014-05-31%2C2014-05-31%2C2014-05-31%2C2014-06-30%2C2014-06-30%2C2014-06-30%2C2014-07-31%2C2014-07-31%2C2014-07-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2014-08-31",
+        "2014-09-30",
+        "2014-10-31",
+        "2014-11-30"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "918aec2615d2402d4f62b67535a67346bfdc781269d37fb4d365feeb0077ff90",
+      "cache_file": "data/cache/macro/vintages_095b5f0d8151da03.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2014-08-31%2C2014-08-31%2C2014-08-31%2C2014-09-30%2C2014-09-30%2C2014-09-30%2C2014-10-31%2C2014-10-31%2C2014-10-31%2C2014-11-30%2C2014-11-30%2C2014-11-30"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2014-12-31",
+        "2015-01-31",
+        "2015-02-28",
+        "2015-03-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "bfb5a0652cf6381d6c5f2f8d9ef8808038bcad7a5b77b007b99d0fcf0810967f",
+      "cache_file": "data/cache/macro/vintages_a6c39138a90b3099.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2014-12-31%2C2014-12-31%2C2014-12-31%2C2015-01-31%2C2015-01-31%2C2015-01-31%2C2015-02-28%2C2015-02-28%2C2015-02-28%2C2015-03-31%2C2015-03-31%2C2015-03-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2015-04-30",
+        "2015-05-31",
+        "2015-06-30",
+        "2015-07-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "dccecc008d7e8489777ac3d622e72871241aa5aad60a0ece6508aee43d65e1a3",
+      "cache_file": "data/cache/macro/vintages_ff6c32f0a25ec1ea.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2015-04-30%2C2015-04-30%2C2015-04-30%2C2015-05-31%2C2015-05-31%2C2015-05-31%2C2015-06-30%2C2015-06-30%2C2015-06-30%2C2015-07-31%2C2015-07-31%2C2015-07-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2015-08-31",
+        "2015-09-30",
+        "2015-10-31",
+        "2015-11-30"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "01752ad617e5448b6e849c004c10195d5722f1abd229ebef9de916c0a2333791",
+      "cache_file": "data/cache/macro/vintages_abd28c4ad96fcae5.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2015-08-31%2C2015-08-31%2C2015-08-31%2C2015-09-30%2C2015-09-30%2C2015-09-30%2C2015-10-31%2C2015-10-31%2C2015-10-31%2C2015-11-30%2C2015-11-30%2C2015-11-30"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2015-12-31",
+        "2016-01-31",
+        "2016-02-29",
+        "2016-03-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "0b89a30e9aae436f24aef58a9c1caa1bfe2b05db65c4a130d889c8bd8b290316",
+      "cache_file": "data/cache/macro/vintages_b6400f0db931b3e9.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2015-12-31%2C2015-12-31%2C2015-12-31%2C2016-01-31%2C2016-01-31%2C2016-01-31%2C2016-02-29%2C2016-02-29%2C2016-02-29%2C2016-03-31%2C2016-03-31%2C2016-03-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2016-04-30",
+        "2016-05-31",
+        "2016-06-30",
+        "2016-07-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "fa4ce70fa4090cd17db9301be58c5569e4e9b42c9e8562343450a3a98db33d05",
+      "cache_file": "data/cache/macro/vintages_20f9575bedbb7bbe.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2016-04-30%2C2016-04-30%2C2016-04-30%2C2016-05-31%2C2016-05-31%2C2016-05-31%2C2016-06-30%2C2016-06-30%2C2016-06-30%2C2016-07-31%2C2016-07-31%2C2016-07-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2016-08-31",
+        "2016-09-30",
+        "2016-10-31",
+        "2016-11-30"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "1edbab054e7fc894dc756b86dd5c6420cbc4f032a92de91f5d04314381c3f94e",
+      "cache_file": "data/cache/macro/vintages_2b57e29807d82234.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2016-08-31%2C2016-08-31%2C2016-08-31%2C2016-09-30%2C2016-09-30%2C2016-09-30%2C2016-10-31%2C2016-10-31%2C2016-10-31%2C2016-11-30%2C2016-11-30%2C2016-11-30"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2016-12-31",
+        "2017-01-31",
+        "2017-02-28",
+        "2017-03-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "83d5d886424d5fcfedee6d7db623876159564be5d60a839d114d5797aec63d84",
+      "cache_file": "data/cache/macro/vintages_5201e45ae3b38535.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2016-12-31%2C2016-12-31%2C2016-12-31%2C2017-01-31%2C2017-01-31%2C2017-01-31%2C2017-02-28%2C2017-02-28%2C2017-02-28%2C2017-03-31%2C2017-03-31%2C2017-03-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2017-04-30",
+        "2017-05-31",
+        "2017-06-30",
+        "2017-07-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "2cb59f5494ad6dde56ea0ae2850debc858a5809ffb4e3ba30e43b7f0e1e5b35b",
+      "cache_file": "data/cache/macro/vintages_efc8af8c99711e95.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2017-04-30%2C2017-04-30%2C2017-04-30%2C2017-05-31%2C2017-05-31%2C2017-05-31%2C2017-06-30%2C2017-06-30%2C2017-06-30%2C2017-07-31%2C2017-07-31%2C2017-07-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2017-08-31",
+        "2017-09-30",
+        "2017-10-31",
+        "2017-11-30"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "d71da9c82023188b4da4a02f3f31ad7298ac931cc4cb4ad0afe00ad0cf2d08fb",
+      "cache_file": "data/cache/macro/vintages_440f246c42634cf9.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2017-08-31%2C2017-08-31%2C2017-08-31%2C2017-09-30%2C2017-09-30%2C2017-09-30%2C2017-10-31%2C2017-10-31%2C2017-10-31%2C2017-11-30%2C2017-11-30%2C2017-11-30"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2017-12-31",
+        "2018-01-31",
+        "2018-02-28",
+        "2018-03-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "964968e4de4941c33065c308f817b815fb95771901b007fdadbf7c3d173c6974",
+      "cache_file": "data/cache/macro/vintages_b5798ecc4f588cf4.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2017-12-31%2C2017-12-31%2C2017-12-31%2C2018-01-31%2C2018-01-31%2C2018-01-31%2C2018-02-28%2C2018-02-28%2C2018-02-28%2C2018-03-31%2C2018-03-31%2C2018-03-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2018-04-30",
+        "2018-05-31",
+        "2018-06-30",
+        "2018-07-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "ab2dd435684d73ddbae2d9413cd93cbab8fb8cdcce6b0e2509295fd5d710c11c",
+      "cache_file": "data/cache/macro/vintages_4513ab639b262586.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2018-04-30%2C2018-04-30%2C2018-04-30%2C2018-05-31%2C2018-05-31%2C2018-05-31%2C2018-06-30%2C2018-06-30%2C2018-06-30%2C2018-07-31%2C2018-07-31%2C2018-07-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2018-08-31",
+        "2018-09-30",
+        "2018-10-31",
+        "2018-11-30"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "53225e5914facdb380bde863edd55c63cfa1517a665b4f8975c7f8b3338827ba",
+      "cache_file": "data/cache/macro/vintages_4d8e03fec9f8de31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2018-08-31%2C2018-08-31%2C2018-08-31%2C2018-09-30%2C2018-09-30%2C2018-09-30%2C2018-10-31%2C2018-10-31%2C2018-10-31%2C2018-11-30%2C2018-11-30%2C2018-11-30"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2018-12-31",
+        "2019-01-31",
+        "2019-02-28",
+        "2019-03-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "12e732119b5c4511b4d619e8ed4bb6ec0e67e5385ea6f296e19fa94db49cedcc",
+      "cache_file": "data/cache/macro/vintages_82483c340e1ec5c6.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2018-12-31%2C2018-12-31%2C2018-12-31%2C2019-01-31%2C2019-01-31%2C2019-01-31%2C2019-02-28%2C2019-02-28%2C2019-02-28%2C2019-03-31%2C2019-03-31%2C2019-03-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2019-04-30",
+        "2019-05-31",
+        "2019-06-30",
+        "2019-07-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "c34ce513396db9f4bbc1d798f755946ef7c8e6a2e7542a3619a20b9eb708efb1",
+      "cache_file": "data/cache/macro/vintages_e3f3926fcfb0f907.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2019-04-30%2C2019-04-30%2C2019-04-30%2C2019-05-31%2C2019-05-31%2C2019-05-31%2C2019-06-30%2C2019-06-30%2C2019-06-30%2C2019-07-31%2C2019-07-31%2C2019-07-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2019-08-31",
+        "2019-09-30",
+        "2019-10-31",
+        "2019-11-30"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "64bd824f2eb27b4bf30ec4491126dcd635afedb4455b31e759497e2caf41cc07",
+      "cache_file": "data/cache/macro/vintages_918f9865d864ccd2.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2019-08-31%2C2019-08-31%2C2019-08-31%2C2019-09-30%2C2019-09-30%2C2019-09-30%2C2019-10-31%2C2019-10-31%2C2019-10-31%2C2019-11-30%2C2019-11-30%2C2019-11-30"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2019-12-31",
+        "2020-01-31",
+        "2020-02-29",
+        "2020-03-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "62f318d4bdf5119c64bd822e2a04cd5f4d05f06834182d353eeff45349c26606",
+      "cache_file": "data/cache/macro/vintages_b666cfc704617baf.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2019-12-31%2C2019-12-31%2C2019-12-31%2C2020-01-31%2C2020-01-31%2C2020-01-31%2C2020-02-29%2C2020-02-29%2C2020-02-29%2C2020-03-31%2C2020-03-31%2C2020-03-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2020-04-30",
+        "2020-05-31",
+        "2020-06-30",
+        "2020-07-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "41730b8df4bab4e99eabef5f78fe384bbfef2f9fc2161ea1b268a9089c6a59c2",
+      "cache_file": "data/cache/macro/vintages_8deedc183831e532.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2020-04-30%2C2020-04-30%2C2020-04-30%2C2020-05-31%2C2020-05-31%2C2020-05-31%2C2020-06-30%2C2020-06-30%2C2020-06-30%2C2020-07-31%2C2020-07-31%2C2020-07-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2020-08-31",
+        "2020-09-30",
+        "2020-10-31",
+        "2020-11-30"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "d2b5287d28a320d1b2b3ff1beb2ed140e1de073368c50c33907e2e337565d1a2",
+      "cache_file": "data/cache/macro/vintages_87271c3ab4609c85.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2020-08-31%2C2020-08-31%2C2020-08-31%2C2020-09-30%2C2020-09-30%2C2020-09-30%2C2020-10-31%2C2020-10-31%2C2020-10-31%2C2020-11-30%2C2020-11-30%2C2020-11-30"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2020-12-31",
+        "2021-01-31",
+        "2021-02-28",
+        "2021-03-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "d7859649cffba46ff1778300cb13815fbc4f9893c0f975e2df8cda9f9f51b1a1",
+      "cache_file": "data/cache/macro/vintages_d7fe46f64fcec000.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2020-12-31%2C2020-12-31%2C2020-12-31%2C2021-01-31%2C2021-01-31%2C2021-01-31%2C2021-02-28%2C2021-02-28%2C2021-02-28%2C2021-03-31%2C2021-03-31%2C2021-03-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2021-04-30",
+        "2021-05-31",
+        "2021-06-30",
+        "2021-07-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "cc048cbf5750d7c6c8ab3f1cc889e9d015afab34f189f8077e0f96d3b965567f",
+      "cache_file": "data/cache/macro/vintages_c082705c1cc7bb72.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2021-04-30%2C2021-04-30%2C2021-04-30%2C2021-05-31%2C2021-05-31%2C2021-05-31%2C2021-06-30%2C2021-06-30%2C2021-06-30%2C2021-07-31%2C2021-07-31%2C2021-07-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2021-08-31",
+        "2021-09-30",
+        "2021-10-31",
+        "2021-11-30"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "d1464121559d8bcc254378bc89a6909cb0e9baed289a5d131efa8e83c58cc992",
+      "cache_file": "data/cache/macro/vintages_73d88c8261e189fa.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2021-08-31%2C2021-08-31%2C2021-08-31%2C2021-09-30%2C2021-09-30%2C2021-09-30%2C2021-10-31%2C2021-10-31%2C2021-10-31%2C2021-11-30%2C2021-11-30%2C2021-11-30"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2021-12-31",
+        "2022-01-31",
+        "2022-02-28",
+        "2022-03-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "36998ccdd05929d6bb4f5d907c9e2538dc27bbdce4e433bcceb1a10b0afd3fd2",
+      "cache_file": "data/cache/macro/vintages_c18c830374588683.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2021-12-31%2C2021-12-31%2C2021-12-31%2C2022-01-31%2C2022-01-31%2C2022-01-31%2C2022-02-28%2C2022-02-28%2C2022-02-28%2C2022-03-31%2C2022-03-31%2C2022-03-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2022-04-30",
+        "2022-05-31",
+        "2022-06-30",
+        "2022-07-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "ad48f0fd8e32fa302ecebfc29bb5c83579a070e7b0dc9a8d5016154f6ad704fd",
+      "cache_file": "data/cache/macro/vintages_e43a52662b287417.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2022-04-30%2C2022-04-30%2C2022-04-30%2C2022-05-31%2C2022-05-31%2C2022-05-31%2C2022-06-30%2C2022-06-30%2C2022-06-30%2C2022-07-31%2C2022-07-31%2C2022-07-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2022-08-31",
+        "2022-09-30",
+        "2022-10-31",
+        "2022-11-30"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "2f9dbb9ef7a1939326bac4394414d0da092b31a9744a8d04eaacb60896c016eb",
+      "cache_file": "data/cache/macro/vintages_b5c8be32cad10001.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2022-08-31%2C2022-08-31%2C2022-08-31%2C2022-09-30%2C2022-09-30%2C2022-09-30%2C2022-10-31%2C2022-10-31%2C2022-10-31%2C2022-11-30%2C2022-11-30%2C2022-11-30"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2022-12-31",
+        "2023-01-31",
+        "2023-02-28",
+        "2023-03-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "f969a75a65b340375f324b452eb28fd90f9f4499c2c2d628342cb435bd8f9c3e",
+      "cache_file": "data/cache/macro/vintages_b052126a4dd45647.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2022-12-31%2C2022-12-31%2C2022-12-31%2C2023-01-31%2C2023-01-31%2C2023-01-31%2C2023-02-28%2C2023-02-28%2C2023-02-28%2C2023-03-31%2C2023-03-31%2C2023-03-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2023-04-30",
+        "2023-05-31",
+        "2023-06-30",
+        "2023-07-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "cfa3fd6a6d688ee8904a0fe074461a50ab7c49f07c67dc5452adefd03c282885",
+      "cache_file": "data/cache/macro/vintages_436a44178d0b33bd.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2023-04-30%2C2023-04-30%2C2023-04-30%2C2023-05-31%2C2023-05-31%2C2023-05-31%2C2023-06-30%2C2023-06-30%2C2023-06-30%2C2023-07-31%2C2023-07-31%2C2023-07-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2023-08-31",
+        "2023-09-30",
+        "2023-10-31",
+        "2023-11-30"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "d4774f3c0fe86d58079c3364643174ed9f06b75b05444b22bd61a907edd23462",
+      "cache_file": "data/cache/macro/vintages_adf9a9ea237e37ec.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2023-08-31%2C2023-08-31%2C2023-08-31%2C2023-09-30%2C2023-09-30%2C2023-09-30%2C2023-10-31%2C2023-10-31%2C2023-10-31%2C2023-11-30%2C2023-11-30%2C2023-11-30"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2023-12-31",
+        "2024-01-31",
+        "2024-02-29",
+        "2024-03-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "b44bf68d99f1a6f9d1e6b01a017501025a991aac323c6842da18c3c5b3800db7",
+      "cache_file": "data/cache/macro/vintages_ba72b1ec83746b1d.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2023-12-31%2C2023-12-31%2C2023-12-31%2C2024-01-31%2C2024-01-31%2C2024-01-31%2C2024-02-29%2C2024-02-29%2C2024-02-29%2C2024-03-31%2C2024-03-31%2C2024-03-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2024-04-30",
+        "2024-05-31",
+        "2024-06-30",
+        "2024-07-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "dbc502abcac9832986f1b5c8d39341a410fe21f2d2ebccbdb37a3447fa6b1c9a",
+      "cache_file": "data/cache/macro/vintages_3a4084b847a095c2.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2024-04-30%2C2024-04-30%2C2024-04-30%2C2024-05-31%2C2024-05-31%2C2024-05-31%2C2024-06-30%2C2024-06-30%2C2024-06-30%2C2024-07-31%2C2024-07-31%2C2024-07-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2024-08-31",
+        "2024-09-30",
+        "2024-10-31",
+        "2024-11-30"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "6693e2e7aeb8ca7068f42fb335a988a202d2786f2a756b2b6002ca4a89e0a2f4",
+      "cache_file": "data/cache/macro/vintages_312402e483b65912.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2024-08-31%2C2024-08-31%2C2024-08-31%2C2024-09-30%2C2024-09-30%2C2024-09-30%2C2024-10-31%2C2024-10-31%2C2024-10-31%2C2024-11-30%2C2024-11-30%2C2024-11-30"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2024-12-31",
+        "2025-01-31",
+        "2025-02-28",
+        "2025-03-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "160129986714b7b427e06e994dcc7de878b68073192073ddb785611f32161a62",
+      "cache_file": "data/cache/macro/vintages_83948dbc1cebc3ae.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2024-12-31%2C2024-12-31%2C2024-12-31%2C2025-01-31%2C2025-01-31%2C2025-01-31%2C2025-02-28%2C2025-02-28%2C2025-02-28%2C2025-03-31%2C2025-03-31%2C2025-03-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2025-04-30",
+        "2025-05-31",
+        "2025-06-30",
+        "2025-07-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "5ecca53828bbf99e32e5419207f3778ca459bd4bb1efcae2db21ca04243a18c6",
+      "cache_file": "data/cache/macro/vintages_0fe92ce39518a1a7.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2025-04-30%2C2025-04-30%2C2025-04-30%2C2025-05-31%2C2025-05-31%2C2025-05-31%2C2025-06-30%2C2025-06-30%2C2025-06-30%2C2025-07-31%2C2025-07-31%2C2025-07-31"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2025-08-31",
+        "2025-09-30",
+        "2025-10-31",
+        "2025-11-30"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "04a3c34063b2c7fe39ab095b4d708b23742cd535ad455f97946535cd627f7441",
+      "cache_file": "data/cache/macro/vintages_1d232c303948ab51.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS%2CUNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2025-08-31%2C2025-08-31%2C2025-08-31%2C2025-09-30%2C2025-09-30%2C2025-09-30%2C2025-10-31%2C2025-10-31%2C2025-10-31%2C2025-11-30%2C2025-11-30%2C2025-11-30"
+    },
+    {
+      "source": "ALFRED public graph CSV",
+      "requested_vintages": [
+        "2025-12-31"
+      ],
+      "series": [
+        "UNRATE",
+        "CPIAUCSL",
+        "FEDFUNDS"
+      ],
+      "sha256": "96b6bdd911376c18d323ea8d68cac3307da8dda39f8a9236c251d7d7e36b987a",
+      "cache_file": "data/cache/macro/vintages_b73d3a3c2e312919.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE%2CCPIAUCSL%2CFEDFUNDS&vintage_date=2025-12-31%2C2025-12-31%2C2025-12-31"
+    }
+  ],
+  "calendar_intersection_dropped_rows": {
+    "SPY": 0,
+    "TLT": 0,
+    "GLD": 0
+  },
+  "fetched_utc": "2026-11-10T08:52:46.287736+00:00"
+}

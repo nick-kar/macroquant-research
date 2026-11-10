@@ -1,0 +1,49 @@
+{
+  "config": {
+    "project": "MacroQuant",
+    "assets": [
+      "SPY",
+      "TLT",
+      "GLD"
+    ],
+    "data_start": "2005-01-01",
+    "data_end": "2025-12-31",
+    "validation_start": "2014-01-01",
+    "test_start": "2019-01-01",
+    "warmup_sessions": 252,
+    "horizon_sessions": 5,
+    "refit_periods": 13,
+    "min_train_rows": 500,
+    "ridge_alphas": [
+      0.1,
+      1.0,
+      10.0,
+      100.0
+    ],
+    "hgb_leaf_nodes": [
+      5,
+      10
+    ],
+    "macro_series": [
+      "UNRATE",
+      "CPIAUCSL",
+      "FEDFUNDS"
+    ],
+    "macro_start": "2005-12-31",
+    "target_portfolio_volatility": 0.1,
+    "max_asset_weight": 0.6,
+    "one_way_cost_bps": [
+      0,
+      5,
+      10,
+      25
+    ],
+    "main_cost_bps": 10,
+    "bootstrap_block_periods": 13,
+    "bootstrap_repetitions": 1000,
+    "random_seed": 42
+  },
+  "config_sha256": "e3cc1c771af5a79defdc4cbcce566b62e31c4ab84571d53e0906c6c9deeb835e",
+  "started_utc": "2026-11-10T08:52:44.942809+00:00",
+  "protocol": "Retrospective predefined chronological validation and prequential test. No hyperparameters selected using test losses. Not a prospectively registered strategy."
+}

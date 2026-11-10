@@ -1,0 +1,19 @@
+name: Optional full historical research run
+on: [workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - run: python -m macroquant run --output results/ci_run
+      - uses: actions/upload-artifact@v4
+        with:
+          name: research-results
+          path: results/ci_run

@@ -1,0 +1,34 @@
+test_alfred_blank_unpublished_values_are_not_filled (test_research.ResearchTests.test_alfred_blank_unpublished_values_are_not_filled) ... ok
+test_alfred_rejects_future_observations (test_research.ResearchTests.test_alfred_rejects_future_observations) ... ok
+test_alfred_requires_confirmed_vintage_header (test_research.ResearchTests.test_alfred_requires_confirmed_vintage_header) ... ok
+test_bootstrap_is_reproducible (test_research.ResearchTests.test_bootstrap_is_reproducible) ... ok
+test_buy_hold_has_no_intermediate_rebalance (test_research.ResearchTests.test_buy_hold_has_no_intermediate_rebalance) ... ok
+test_features_are_price_scale_invariant (test_research.ResearchTests.test_features_are_price_scale_invariant) ... ok
+test_future_targets_do_not_change_an_earlier_forecast (test_research.ResearchTests.test_future_targets_do_not_change_an_earlier_forecast) ... ok
+test_garch_inputs_end_at_forecast_date (test_research.ResearchTests.test_garch_inputs_end_at_forecast_date) ... ok
+test_higher_costs_reduce_nav (test_research.ResearchTests.test_higher_costs_reduce_nav) ... ok
+test_initial_entry_and_liquidation_are_charged (test_research.ResearchTests.test_initial_entry_and_liquidation_are_charged) ... ok
+test_labels_finish_after_decision (test_research.ResearchTests.test_labels_finish_after_decision) ... ok
+test_low_risk_target_increases_cash (test_research.ResearchTests.test_low_risk_target_increases_cash) ... ok
+test_macro_contrasts_preserve_pairing_and_adjust_pvalues (test_research.ResearchTests.test_macro_contrasts_preserve_pairing_and_adjust_pvalues) ... ok
+test_macro_future_revisions_do_not_change_past_features (test_research.ResearchTests.test_macro_future_revisions_do_not_change_past_features) ... ok
+test_macro_never_joins_future_vintage (test_research.ResearchTests.test_macro_never_joins_future_vintage) ... ok
+test_missing_macro_stays_missing (test_research.ResearchTests.test_missing_macro_stays_missing) ... ok
+test_ml_refit_audit_proves_label_purge (test_research.ResearchTests.test_ml_refit_audit_proves_label_purge) ... ok
+test_no_synthetic_fallback_for_bad_price_response (test_research.ResearchTests.test_no_synthetic_fallback_for_bad_price_response) ... ok
+test_paper_records_cannot_be_replaced_or_backdated (test_research.ResearchTests.test_paper_records_cannot_be_replaced_or_backdated) ... ok
+test_paper_records_form_a_hash_chain (test_research.ResearchTests.test_paper_records_form_a_hash_chain) ... ok
+test_portfolio_records_daily_not_just_weekly_nav (test_research.ResearchTests.test_portfolio_records_daily_not_just_weekly_nav) ... ok
+test_price_features_cannot_see_future (test_research.ResearchTests.test_price_features_cannot_see_future) ... ok
+test_qlike_floor_handles_small_variance (test_research.ResearchTests.test_qlike_floor_handles_small_variance) ... ok
+test_qlike_is_zero_for_perfect_variance (test_research.ResearchTests.test_qlike_is_zero_for_perfect_variance) ... ok
+test_risky_weights_respect_caps_and_no_leverage (test_research.ResearchTests.test_risky_weights_respect_caps_and_no_leverage) ... ok
+test_target_matches_next_open_holding_interval (test_research.ResearchTests.test_target_matches_next_open_holding_interval) ... ok
+test_target_periods_do_not_overlap (test_research.ResearchTests.test_target_periods_do_not_overlap) ... ok
+test_training_excludes_unfinished_labels (test_research.ResearchTests.test_training_excludes_unfinished_labels) ... ok
+test_validation_selection_uses_only_labels_available_before_test (test_research.ResearchTests.test_validation_selection_uses_only_labels_available_before_test) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.371s
+
+OK

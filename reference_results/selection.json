@@ -1,0 +1,11 @@
+{
+  "parameters": {
+    "ridge_price": 100.0,
+    "ridge_macro": 100.0,
+    "hgb_price": 5,
+    "hgb_macro": 5
+  },
+  "validation_champion": "garch",
+  "selection_metric": "mean validation QLIKE",
+  "test_used_for_selection": false
+}
